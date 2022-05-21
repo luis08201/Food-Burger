@@ -1,0 +1,15 @@
+@mixin button{
+        color: var(--white);
+        background-color: var(--red);
+        border-radius: 32px;
+        font-weight: 500;
+        transition: 0.5s;
+        width: 150px;
+
+        &:hover,
+        &:focus {
+            background-color: transparent;
+            color: var(--red);
+            border: 1px solid var(--red);
+        }   
+}

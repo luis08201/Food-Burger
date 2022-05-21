@@ -1,0 +1,14 @@
+.dh1{
+    font-size: 36px;
+
+    @media screen and (min-width:768px){
+        font-size: 52px;
+    }
+}
+
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
